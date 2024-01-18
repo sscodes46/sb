@@ -59,14 +59,12 @@ print("""
       
       
 
-
-██╗     ██╗   ██╗███████╗███████╗██╗   ██╗    ██╗   ██╗ ██╗
-██║     ██║   ██║██╔════╝██╔════╝╚██╗ ██╔╝    ██║   ██║███║
-██║     ██║   ██║█████╗  █████╗   ╚████╔╝     ██║   ██║╚██║
-██║     ██║   ██║██╔══╝  ██╔══╝    ╚██╔╝      ╚██╗ ██╔╝ ██║
-███████╗╚██████╔╝██║     ██║        ██║        ╚████╔╝  ██║
-╚══════╝ ╚═════╝ ╚═╝     ╚═╝        ╚═╝         ╚═══╝   ╚═╝
-                                                           
+██████╗  █████╗ ██╗      █████╗ ████████╗██╗ ██████╗    ██╗   ██╗ ██╗
+██╔════╝ ██╔══██╗██║     ██╔══██╗╚══██╔══╝██║██╔════╝    ██║   ██║███║
+██║  ███╗███████║██║     ███████║   ██║   ██║██║         ██║   ██║╚██║
+██║   ██║██╔══██║██║     ██╔══██║   ██║   ██║██║         ╚██╗ ██╔╝ ██║
+╚██████╔╝██║  ██║███████╗██║  ██║   ██║   ██║╚██████╗     ╚████╔╝  ██║
+ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝      ╚═══╝   ╚═╝
 
    
       
@@ -75,7 +73,7 @@ print("""
 @client.event
 async def on_ready():
     os.system(
-        f"mode 85,20 & title [Luffy SELF BOT] - Connected: {client.user}")
+        f"mode 85,20 & title [glactic SELF BOT] - Connected: {client.user}")
     print(f'''
           
 ```
@@ -89,21 +87,21 @@ PREFIX: {prefix}
 @client.command(aliases=["h"])
 async def help(ctx):
   await ctx.reply(content="""
-__**Luffy SB V1**__
+__**glactic SB V1**__
 
 `` ~ Help``
 ``~ Nuke``
 ``~ Text``
 ``~ Utility``
 ``~ Botinfo``
-``~ Luffy SB V1``
+``~ glactic SB V1``
 """)
 
 @client.command(aliases=["nuke"])
 async def n(ctx):
     await ctx.reply(content=f"""
 ```
-Luffy Sb V1 Nuke Commands 
+glactic Sb V1 Nuke Commands 
 
 • massban       | Bans everyone in the server
 • masskick      | Kick everyone in the server 
@@ -124,7 +122,7 @@ Luffy Sb V1 Nuke Commands
 • delroles      | Deletes all roles of the server
 • giveadmin     | Enables admin in everyone
                  
-~ Created By Luffy
+~ Created By glactic codes
 ```                
                   """)
 
@@ -133,7 +131,7 @@ async def text(ctx):
 
     await ctx.reply(content="""
 ```
-Luffy Sb V1 Text Commands
+glactic Sb V1 Text Commands
 
 • massdm          | massdm all users
 • spam            | spams the chat
@@ -149,7 +147,7 @@ Luffy Sb V1 Text Commands
 • stream          | Changes the status to streaming
 • stopstatus      | Stops the current status
 
-~ Created By Luffy
+~ Created By glactic codes
 ```                  
                   """)
 @client.command()
@@ -157,7 +155,7 @@ async def utility(ctx):
 
     await ctx.reply(content="""
 ```
-Luffy Sb V1 Utility Commands
+glactic V1 Utility Commands
 
 • av            | Shows avatar of user
 • banner        | Shows banner of user
@@ -171,7 +169,7 @@ Luffy Sb V1 Utility Commands
 • image         | Embeds the image link
 • screenshot    | Sends screenshot of site
 
-~ Created By Luffy
+~ Created By glactic codes
 ```                   
                   """)
 
